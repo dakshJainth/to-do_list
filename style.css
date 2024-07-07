@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    /* background-color: transparent; */
+    backdrop-filter: blur(5px);
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img/../onepiece_todo.jpg);
+    background-size: cover;
+    padding: 10px;
+}
+
+.to-do{
+    /* background-image: url(img/../task_to-do.png); */
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.to-do h1{
+    color: rgb(26, 10, 62);
+    display: flex;
+    align-items: right;
+    margin-bottom: 15px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(224, 224, 224);
+    border-radius: 40px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: rgb(224, 224, 224);
+    padding: 10px;
+    font-weight: 14xp;
+    font-size: 16px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: rgb(50, 110, 199);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+ul li{
+    background-color: rgb(208, 223, 250);
+    border-radius: 100px;
+    margin: 5px;
+    color: rgb(0, 0, 117);
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+}
+
+ul li.done{
+    color:rgba(50, 50, 255, 0.694);
+    /* text-decoration: line-through; */
+    background-color: rgb(233, 233, 217);
+    border-radius: 100px;
+}
+
+ul li span{
+    position:sticky;
+    right: 0;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(255, 0, 179);  
+    /* border-radius: 50%; */
+}
+
+ul li span:hower{
+    background: blue;
+}
